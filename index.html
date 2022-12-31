@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Random Quote Machine</title>
+  </head>
+  <body>
+    <div id="quote-box">
+      <div id="quote-text">
+        <i class="fa fa-quote-left"></i>
+        <span id="text"></span>
+      </div>
+
+      <div id="quote-author">- <span id="author"></span></div>
+
+      <div class="button-container">
+        <div class="button-left">
+          <a
+            class="button"
+            id="tweet-quote"
+            title="Tweet this quote!"
+            target="_blank"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+
+          <a
+            class="button"
+            id="tumblr-quote"
+            title="Post this quote on tumblr!"
+            target="_blank"
+          >
+            <i class="fa-brands fa-tumblr"></i>
+          </a>
+        </div>
+        <button class="button" id="new-quote">New quote</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
